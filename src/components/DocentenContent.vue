@@ -1,5 +1,4 @@
 <script setup>
-
 </script>
 
 <template>
@@ -15,9 +14,7 @@
                     voor muziek. Hieronder wordt ons team voorgesteld.<br>
                 </p>
             </div>
-            <div class="container-image">
-            asfknla
-            </div>
+            <div class="container-image"></div>
         </div>
         <div class="background-color-section">
             <section class="container-section">

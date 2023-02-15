@@ -25,13 +25,33 @@ body {
   width: 100%;
 }
 .logo-navbar {
-    /* background-color: #2584C0; */
-    position: absolute;
+  height: 250px;
+  position: absolute;
 }
-.navbar li{
+.navbar li {
   padding: 20px;
 }
 /* End Navbar */
+/* mobile navbar */
+.mobile-navbar {
+  display: flex;
+  background-color: #2584C0;
+}
+.links-mobile-navbar li {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  background-color: #2584C0;
+  width: 100%;
+}
+.hamburger-menu-icon {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  padding: 5px;
+}
 /* begin Home body */
 .container{
   color: #2584C0;
@@ -71,6 +91,14 @@ body {
 }
 /* end Home body */
 
+@media screen and (max-width: 1085px) {
+  .computer-navbar {
+    display: none;
+  }
+  .mobile-navbar {
+    display: block !important;
+  }
+}
 @media screen and (max-width: 1200px) {
   .logo-navbar {
     display: none;

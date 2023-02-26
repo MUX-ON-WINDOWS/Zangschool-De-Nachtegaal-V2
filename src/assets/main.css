@@ -90,8 +90,56 @@ body {
   width: 400px;
 }
 /* end Home body */
+/* Begin prijzen */
+.containerZanglessen {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.prijsOffer {
+  position: relative;
+  text-align: center;
+  background-color: #DEEEF8;
+  color: #2584C0;
+  width: 300px;
+  height: 500px;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+.logo-prijzen {
+  width: 280px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+.winkelwagenButton {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  justify-content: center;
+  background-color: #C37E23;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
 
-@media screen and (max-width: 1085px) {
+@media (hover) {
+  .prijsOffer:hover > .logo-prijzen {
+    width: 300px;
+  }
+  .prijsOffer:hover {
+    width: 325px;
+  }
+
+}
+/* einde prijzen */
+@media screen and (max-width: 1200px) {
   .computer-navbar {
     display: none;
   }

@@ -1,5 +1,6 @@
 <template>
-    <div class="computer-navbar">
+    <nav>
+        <div class="computer-navbar">
         <img class="logo-navbar" src="../assets/images/zangvogel.png" alt="logo">
         <div class="title">
             <p>Zangschool De Nachtegaal</p>
@@ -26,7 +27,10 @@
             <li><router-link to="/Contact">Contact</router-link></li>
         </div>
     </div>
-    <router-view></router-view>
+    </nav>
+    <main>
+        <router-view></router-view>
+    </main>
 </template>
 <script>
 export default {

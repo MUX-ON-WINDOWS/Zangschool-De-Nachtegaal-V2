@@ -19,9 +19,9 @@ const router = createRouter({
       component: () => import('../views/ZangLessen.vue')
     },
     {
-      path: '/prijzen',
-      name: 'prijzen',
-      component: () => import('../views/Prijzen.vue')
+      path: '/producten',
+      name: 'producten',
+      component: () => import('../views/Producten.vue')
     },
     {
       path: '/contact',

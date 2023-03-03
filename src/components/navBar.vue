@@ -9,7 +9,7 @@
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/docenten">Docenten</router-link></li>
             <li><router-link to="/zanglessen">Zanglessen</router-link></li>
-            <li><router-link to="/prijzen">Prijzen</router-link></li>
+            <li><router-link to="/producten">Producten</router-link></li>
             <li><router-link to="/Contact">Contact</router-link></li>
         </div>
     </div>
@@ -23,7 +23,7 @@
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/docenten">Docenten</router-link></li>
             <li><router-link to="/zanglessen">Zanglessen</router-link></li>
-            <li><router-link to="/prijzen">Prijzen</router-link></li>
+            <li><router-link to="/producten">Producten</router-link></li>
             <li><router-link to="/Contact">Contact</router-link></li>
         </div>
     </div>
